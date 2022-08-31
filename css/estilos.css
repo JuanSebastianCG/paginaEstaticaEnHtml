@@ -1,0 +1,111 @@
+
+
+
+.Header{
+/* el porcentaje permite que la pagina se modifique  */
+width: 100%;
+height: 150px;
+background-color: rgb(3, 154, 154);
+border: 1px;
+
+/* centra el header  */
+/* margin: auto; */
+
+}
+
+
+.Nav{
+
+width: 30%;
+height: 60%;
+background-color: rgb(34, 170, 201);
+float: left;
+
+
+}
+
+
+.Section{
+    
+    width: 70%;
+    height: 60%;
+    background-color: rgb(99, 155, 158);
+    float: left;
+    
+    
+}
+
+
+.Footer{
+    
+    width: 100%;
+    height: 10%;
+    background-color: rgb(105, 120, 255);
+    /* el left permite que todo lo que se ponga vaya a la derecha  */
+    float: left;
+    overflow-x: hidden;
+
+}
+
+
+/* el nav, section y footer estan dentro del container */
+.Container{
+
+    width: 80vw;
+    height: 90vw;
+    margin: auto;
+
+}
+
+.Menu{
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* .marquee {
+    position: relative;
+    white-space: nowrap;
+  
+    -webkit-animation: rightThenLeft 6s infinite;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}
+ */
+
+
+.wrapper {
+    width: 200px;
+    margin: auto;
+    border: 4px solid #eb1c49;
+
+    
+  }
+  
+  .marquee {
+    font-weight: bold;
+    color: #fbfbfb;
+    animation-name: rightToLeft;
+    animation-duration: 4.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation: rightToLeft 4.5s linear infinite; */
+  }
+  
+  @keyframes rightToLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
