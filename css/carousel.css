@@ -48,10 +48,10 @@
   }
   body #scene {
     display: flex;
-    align-items: center;
+
     justify-content: left;
-    width: 90%;
-    height: 450px;
+    width: 75%;
+    height: 400px;
     position: absolute;
     top: 15%;
     bottom: 0;
@@ -65,7 +65,7 @@
   }
   body #scene #left-zone {
     background: transparent;
-    height: 85%;
+
     flex-grow: 0;
     display: flex;
     width: 450px;
@@ -252,9 +252,10 @@
 
   /* barra  */
   body #scene #middle-border {
-    background-color: rgb(113, 89, 89);
+    background-color: rgb(136, 129, 208);
     height: 75%;
     flex-grow: 1;
+    margin-top: 5%;
     max-width: 2px;
     z-index: 0;
   }
