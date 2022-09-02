@@ -73,7 +73,6 @@ nav ul li a:focus{
     color: white;
     position: relative;
     z-index: 2;
-    margin-bottom: 50px;
     margin-left: 10%;
     max-width: 40%;
     text-align: justify;
@@ -82,7 +81,6 @@ nav ul li a:focus{
 .Creed_Content .Creed_Text h6{
     font-size: 14px;
     margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .Creed_Content .Creed_Text h3{
@@ -99,6 +97,7 @@ nav ul li a:focus{
     text-align: center;
     margin-top: 30px;
     margin-right: 15px;
+    margin-bottom: 10%;
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -188,11 +187,12 @@ nav ul li a:focus{
     margin-top: 10px;
 }
 
-.Top-Cup .Cup-content .Cup-text a{
+/* .Top-Cup .Cup-content .Cup-text a{
     text-align: center;
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
+    margin-bottom: 10%;
     color: black;
     background-color: white;
     border: 1px;
@@ -200,4 +200,4 @@ nav ul li a:focus{
     line-height: 1.4;
     border-radius: 30px;
     font-size: 14px;
-}
+} */
