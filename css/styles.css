@@ -50,13 +50,13 @@ body{
 
 nav ul li{
     list-style: none;
-    display: inline-block;
+    display: inline-block; 
 }
 
 nav ul li a{
     text-decoration: none;
     color:white;
-    margin-left: 60px;
+    margin-left: 50px;
     transition: .4s;
 }
 
