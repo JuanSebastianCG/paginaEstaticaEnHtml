@@ -6,8 +6,10 @@
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: auto;
+    background-image: url(/img/Switch/SwitchFondo.jpg);
 }
+
 .Main-width{
     width: 70%;
     max-width: 95%;
@@ -18,7 +20,7 @@ body{
     width: 100%;
     height: 20%;
     min-height: 100vh;
-    background-image: url(/img/Switch/SwitchFondo.jpg);
+    
     position: relative;
 }
 
