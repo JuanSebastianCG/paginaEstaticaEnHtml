@@ -127,10 +127,10 @@
     content: " ";
     display: block;
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-left: 15px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+    background-image: url("/img/Steam/multiplayerLogo.webp");
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -139,10 +139,10 @@
     content: " ";
     display: block;
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-left: 15px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+    background-image: url("/img/Steam/indieLogo.png");
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -179,40 +179,46 @@
     
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_banana .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("/img/Steam/bestVoted.png");
+    height: 120px;
+    width: 300px;
+    background-image: url("/img/Steam/logoPortal2.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    color: #eee;
+    margin-bottom: 10px;
+
+    
     
     
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_banana h1 {
-    color: #267186;
+    color: #000000;
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
+    height: 120px;
+    width: 300px;
+    background-image: url("/img/Steam/leftDeadlogo.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
+    
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_apple h1 {
     color: #000000;
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange .picto {
-    height: 100px;
-    width: 100px;
-    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
+    height: 120px;
+    width: 300px;
+    background-image: url("/img/Steam/stardewvaleeyLogo");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
+    
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content.content_orange h1 {
-    color: #267186;
+    color: #000000;
   }
   body #scene #left-zone .list li.item input[type=radio] ~ .content h1:first-letter {
     text-transform: uppercase;
@@ -227,25 +233,25 @@
             animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_strawberry {
-    font-size: 110%;
+    font-size: 120%;
     color: #220032;
 
     border-right: double 10px #220032;
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_banana {
-    font-size: 110%;
+    font-size: 120%;
     color: #220032;
  
     border-right: double 10px #220032;
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_apple {
-    font-size: 110%;
+    font-size: 120%;
     color: #220032;
     
     border-right: double 10px #220032;
   }
   body #scene #left-zone .list li.item input[type=radio]:checked ~ label.label_orange {
-    font-size: 110%;
+    font-size: 120%;
     color: #220032;
     
     border-right: double 10px #220032;
