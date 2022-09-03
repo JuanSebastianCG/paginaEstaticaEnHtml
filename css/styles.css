@@ -159,7 +159,8 @@ nav ul li a:focus{
 .Top-Cup .Cup-content{
     position: absolute;
     margin-left: 50%;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
 }
 
 .Top-Cup .Cup-content .Cup-logo{
@@ -175,7 +176,6 @@ nav ul li a:focus{
 .Top-Cup .Cup-content .Cup-text{
     color: rgb(0, 0, 0);
     position: relative;
-    z-index: 2;
     margin-left: 5%;
     max-width: 90%;
     text-align: center;
@@ -267,4 +267,54 @@ nav ul li a:focus{
     line-height: 1.4;
     border-radius: 30px;
     font-size: 14px;
+}
+
+.footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content{
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    margin-top: 1%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 10px ;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
 }
