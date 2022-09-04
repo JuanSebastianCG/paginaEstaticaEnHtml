@@ -211,17 +211,17 @@ nav ul li a:focus{
 }
 
 .Top-god .god-img{
-    position: relative;
+    position: absolute;
     width: 50%;
-    margin-left: 10%;
-    text-align: center;
+    height: 100vh;
+    margin-left: 40%;
+    align-items: center;
 }
 
 .Top-god .god-img img{
     position: absolute;
-    margin-top: 4.7%;
-    width: 150%;
-    vertical-align: bottom;
+    width: 140%;
+    bottom: 0;
 }
 
 .Top-god .god-content{
