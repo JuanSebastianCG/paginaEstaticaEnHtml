@@ -8,6 +8,7 @@
 body{
     overflow-x: auto;
     background-image: url(/img/Switch/SwitchFondo.jpg);
+    position: relative;
 }
 
 .Main-width{
@@ -69,25 +70,101 @@ nav ul li a:focus{
 }
 
 
-.barra{
-    width: 60%;
-    max-width: 95%;
-    margin: auto;
-}
 
-.Section
-{
-    width: 58%;
+.container{
+    width: 70%;
     height: 100%;
-    background-color: azure;
-    margin-left: 14%;
+    margin: auto;
+    margin-top: 5%;
 }
 
-.Container
-{
-    width: 57.3vw;
-    height: 80vh;
-    margin: auto;
-    margin-left: 14%;
-    background-color: antiquewhite;
+.menu{
+    background: #4822D6;
 }
+
+.menu label{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease;
+    margin-left: 20px;
+}
+
+.menu label:hover{
+    background: #1B0A5B;
+}
+
+.content{
+    position: relative;
+}
+
+.content div{
+    position: absolute;
+    line-height: 1.8;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 30px;
+    background: #fff;
+    padding-bottom: 40px;
+}
+
+#radio1,#radio2,#radio3,#radio4{
+    display: none;
+}
+
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.content div:after
+{
+    position: absolute;
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    bottom: 100%;
+    left: 70px;
+}
+
+.content .tab2:after
+{
+    left: 219px;
+}
+
+.content .tab3:after
+{
+    left: 380px;
+}
+
+.content .tab4:after
+{
+    left: 542px;
+}
+
+.container a{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #4822D6;
+    border: 1px;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
