@@ -3,7 +3,8 @@
     height: 100%;
     min-height: 100vh;
     /* background-color: #02375c; */
-    background-image: url("/img/Steam/logoBackgroud.png");
+    background: rgb(23,26,33);
+    background: radial-gradient(circle, rgba(23,26,33,1) 62%, rgba(51,108,157,1) 100%);
 
 }
 
