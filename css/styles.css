@@ -89,7 +89,7 @@ nav ul li a:focus{
 }
 
 .Creed_Content .Creed_Text p{
-    font-size: 15px;
+    font-size: 1.9893899204244032vh;
     margin-top: 20px;
 }
 
@@ -106,7 +106,7 @@ nav ul li a:focus{
     padding: 9px 25px;
     line-height: 1.4;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 1.856763925729443vh;
 }
 
 .Creed_logo{
@@ -182,7 +182,7 @@ nav ul li a:focus{
 }
 
 .Top-Cup .Cup-content .Cup-text p{
-    font-size: 15px;
+    font-size: 1.9893899204244032vh;
     margin-top: 10px;
 }
 
@@ -197,8 +197,24 @@ nav ul li a:focus{
     padding: 9px 25px;
     line-height: 1.4;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 1.856763925729443vh;
 }
+
+.video-cup{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden; 
+}
+
+.video-cup iframe{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+}
+
 
 /* GOD OF WAR */
 
@@ -211,17 +227,17 @@ nav ul li a:focus{
 }
 
 .Top-god .god-img{
-    position: relative;
+    position: absolute;
     width: 50%;
-    margin-left: 10%;
-    text-align: center;
+    height: 100vh;
+    margin-left: 40%;
+    align-items: center;
 }
 
 .Top-god .god-img img{
     position: absolute;
-    margin-top: 4.7%;
-    width: 150%;
-    vertical-align: bottom;
+    width: 140%;
+    bottom: 0;
 }
 
 .Top-god .god-content{
