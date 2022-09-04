@@ -7,7 +7,8 @@
 
 body{
     overflow-x: auto;
-    background-image: url(/img/Switch/SwitchFondo.jpg);
+    background-image: url(/img/Switch/ALTERNATIVE\ SWITCH.jpg);
+    background-size: 100%;
     position: relative;
 }
 
@@ -72,14 +73,14 @@ nav ul li a:focus{
 
 
 .container{
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin: auto;
-    margin-top: 5%;
+    
 }
 
 .menu{
-    background: #4822D6;
+    background: #489fd6;
 }
 
 .menu label{
@@ -92,7 +93,7 @@ nav ul li a:focus{
 }
 
 .menu label:hover{
-    background: #1B0A5B;
+    background: #7a7a7e;
 }
 
 .content{
@@ -109,6 +110,10 @@ nav ul li a:focus{
     padding: 30px;
     background: #fff;
     padding-bottom: 40px;
+}
+
+.content .div p{
+    text-align: justify;
 }
 
 #radio1,#radio2,#radio3,#radio4{
@@ -142,9 +147,17 @@ nav ul li a:focus{
     left: 219px;
 }
 
+.content .tab2 p{
+    text-align: justify;
+}
+
 .content .tab3:after
 {
     left: 380px;
+}
+
+.content .tab3 p{
+    text-align: justify;
 }
 
 .content .tab4:after
@@ -152,10 +165,15 @@ nav ul li a:focus{
     left: 542px;
 }
 
+.content .tab3 p{
+    text-align: justify;
+}
+
+
 .container a{
     text-align: center;
     margin-top: 20px;
-    margin-left: 35%;
+    margin-left: 42%;
     display: inline-block;
     text-decoration: none;
     color: black;
