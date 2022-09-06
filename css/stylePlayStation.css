@@ -7,7 +7,7 @@
 
 body{
     overflow-x: auto;
-    background-image: url(/img/playStation/803422.jpg);
+    background-image: url(/img/playStation/55884-playstation.png);
     background-size: 100%;
     position: relative;
 }
@@ -77,23 +77,6 @@ nav ul li a:focus{
     height: 100%;
     margin: auto;
     
-}
-
-.menu{
-    background: #489fd6;
-}
-
-.menu label{
-    display: inline-block;
-    padding: 20px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 400ms ease;
-    margin-left: 20px;
-}
-
-.menu label:hover{
-    background: #7a7a7e;
 }
 
 .content{
@@ -185,3 +168,33 @@ nav ul li a:focus{
     font-size: 14px;
 }
 
+.footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content{
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    margin-top: 1%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
