@@ -7,7 +7,7 @@
 
 body{
     overflow-x: auto;
-    background-color: #111;
+    background-color: rgb(35, 34, 34);
     background-size: 100%;
 }
 
@@ -20,7 +20,7 @@ body{
 .nav{
     width: 100%;
     height: 20%;
-    min-height: 100vh;
+    min-height: 18vh;
     
     position: relative;
 }
@@ -69,3 +69,166 @@ nav ul li a:focus{
     border-bottom: 3px solid white;
 }
 
+
+.Top-xbox{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Top-xbox .xbox-img{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+}
+
+.Top-xbox .xbox-img img{
+   bottom: 0;
+   margin-right: 10%;
+}
+
+.Top-xbox .xbox-content{
+    position: absolute;
+    margin-left: 50%;
+    height: 100vh;
+}
+
+.Top-xbox .xbox-content .xbox-text{
+    margin-top: 20%;
+    color: rgb(246, 246, 246);
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+    max-width: 85%;
+    text-align: justify;
+}
+
+.Top-xbox .xbox-content .xbox-text p{
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.Top-xbox .xbox-content .xbox-text a{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 3%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
+.Top-game{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Top-game .game-img{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+.Top-game .game-img img{
+   bottom: 0;
+   margin-top: 30%;
+   width: 70%;
+   align-items: center;
+}
+
+.Top-game .game-content{
+    position: absolute;
+    margin-left: 50%;
+    height: 100vh;
+}
+
+.Top-game .game-content .game-text{
+    margin-top: 32%;
+    color: rgb(246, 246, 246);
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+    max-width: 85%;
+    text-align: justify;
+}
+
+.Top-game .game-content .game-text p{
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.Top-game .game-content .game-text a{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 3%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content{
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    margin-top: 1%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+}
