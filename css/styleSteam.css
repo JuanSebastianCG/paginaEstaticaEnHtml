@@ -3,8 +3,7 @@
     height: 100%;
     min-height: 100vh;
     /* background-color: #02375c; */
-    background: rgb(23,26,33);
-    background: radial-gradient(circle, rgba(23,26,33,1) 62%, rgba(51,108,157,1) 100%);
+    background-image: url("/img/Steam/logoBackgroud.png");
 
 }
 
@@ -33,57 +32,12 @@
     padding: 40px 0 30px;
 }
 
-.footer{
-    background-color: #111;
-    height: auto;
-    width: 100vw;
-}
-
-.footer-content{
-    background-color: #111;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h2{
-    margin-top: 1%;
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-
-.footer-content p{
-    max-width: 500;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-.socials{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.socials li{
-    margin: 0 10px ;
-}
-
-.socials a{
-    text-decoration: none;
-    color: white;
-}
-
-.socials a i{
-    font-size: 1.1rem;
-}
 
 
 
-
-
+	
+.image-text-column {
+	width:50% !important;
+	padding: 14px 35px  !important;
+	box-sizing:border-box;
+	}
